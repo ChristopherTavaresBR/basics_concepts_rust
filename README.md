@@ -1,7 +1,7 @@
 # 🚀 Rust BR: **Sem GC, Com Ginga!**  
 
 
-# 🎯 Essa bagaça será em PT-BR, não gostou tem muito conteúdo gringo ai 🎯
+# 🎯 Essa bagaça será em PT-BR, tem muito conteúdo gringo EN 🎯
 
 
 ## Antes de começar (Se não tiver instalado)
