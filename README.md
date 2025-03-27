@@ -41,7 +41,7 @@ O Cargo já criou essa estrutura básica:
 [package]  
 name = "nome_do_projeto"  
 version = "0.1.0"  
-edition = "2025"  # 🚀 Usa a versão mais moderna do Rust!  
+edition = "2024"  # 🚀 Usa a versão mais moderna do Rust!  
 authors = ["SeuNome <seu.email@example.com>"]  
 description = "Projeto didático de Rust com hype BR! 🦀"  
 license = "MIT"  # Ou "Apache-2.0" se preferir  
