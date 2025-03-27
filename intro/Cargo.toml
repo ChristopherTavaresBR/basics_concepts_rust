@@ -1,0 +1,11 @@
+[package]  
+name = "intro"  
+version = "0.1.0"  
+edition = "2021"  # 🚀 Usa a versão mais moderna!  
+authors = ["ChristopherYosef <aratava82@gmail.com>"]  
+description = "Projeto didático de Rust com hype BR! 🦀"  
+license = "MIT"  # Ou "Apache-2.0" se preferir  
+
+# 🔥 Dependências (vamos adicionar um crate maneiro pra começar)  
+[dependencies]  
+ferris-says = "0.3"  # 🦀 Um crate que faz o mascote do Rust "falar"!  
