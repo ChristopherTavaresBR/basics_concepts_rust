@@ -1,17 +1,21 @@
 # 🚀 Rust BR: **Sem GC, Com Ginga!**  
 
-# Essa bagaça será em PT-BR, não gostou tem muito conteúdo gringo ai
+
+# 🎯 Essa bagaça será em PT-BR, não gostou tem muito conteúdo gringo ai 🎯
+
 
 ## Antes de começar (Se não tiver instalado)
 
-# No terminal (Linux/Mac/WSL):  
+Fuja do Windows diretamente, tente usar o WSL
+
+### No terminal (Linux/Mac/WSL):  
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh  
 
-# Windows: Baixa o .exe no [site oficial](https://www.rust-lang.org/tools/install)  
+# Windows (se não houver opções): Baixa o .exe no [site oficial](https://www.rust-lang.org/tools/install)  
 ```
 
-## CRIANDO O PROJETO COM CARGO (O GERENCIADOR GOD DO RUST)
+### CRIANDO O PROJETO COM CARGO (O GERENCIADOR GOD DO RUST)
 
 ```bash
 # Cria um projeto novo (substitua "nome_do_projeto" pelo nome do teu projeto):  
@@ -31,7 +35,7 @@ O Cargo já criou essa estrutura básica:
     └── main.rs  # 📜 Código inicial (um simples "Hello, world!")  
 ```
 
-## EDITANDO O Cargo.toml (DEIXANDO BOLADÃO)
+### EDITANDO O Cargo.toml (DEIXANDO BOLADÃO)
 
 ```bash
 [package]  
@@ -56,7 +60,7 @@ cargo build
 cargo run  
 ```
 
-Expectativa e realidade
+###Expectativa e realidade
 
 ```bash
  _____________________________
@@ -71,18 +75,23 @@ Expectativa e realidade
           / '-----' \
 ```
 
-##🎯 POR QUE ESSE SETUP?
+## 🎯 POR QUE ESSE SETUP?
+
 Cargo.toml organizado: Metadados claros + dependência externa (pra mostrar o ecossistema).
 
-Exemplo visual: Ferris (mascote do Rust) "falando" ganha engajamento.
-
-Desafio implícito: Incentiva a galera a modificar o código e testar.
+Exemplo visual: Ferris (mascote do Rust) "falando".
 
 
-Próximo commit do curso! Aqui a gente aprenderá:
+## Próximo commit do curso! 
+
+### Aqui a gente aprenderá:
+
+Vai testando ai que é suave! Lembre-se de iniciar o projeto, nesse caso não há dependencias.
 
 ✅ **Ownership**: Rust é o dono da bola e você não pode passar ela duas vezes!  
 ✅ **Borrowing**: Pegar emprestado é suave, mas tem que devolver! 
+
+Só cola no main.rs e siga os comentários, qualquer coisa grita na issues
 
 ```rust
 // 📌 PARTE 1: DONO DA BOLA (OWNERSHIP)  
@@ -105,7 +114,9 @@ fn rouba_bola_de_verdade(texto: String) { // 🎯 Toma posse!
 }  
 ```
 
-## 🎯 DESAFIO BR:  
+
+## 🎯 DESAFIO BR:
+
 1. Rode `cargo run` e veja o código funcionar.  
 2. **Descomente as linhas comentadas** e tente rodar de novo.  
 3. Posta o erro que o compilador gritou! (Exemplo: "Xii, parça, faltou o `mut` aí!").  
@@ -113,3 +124,19 @@ fn rouba_bola_de_verdade(texto: String) { // 🎯 Toma posse!
 ```bash
 $ cargo run   # 🦀 O compilador é seu amigo (mas xinga muito)  
 ```
+
+Aqui você aprendeu como funciona um projeto em Rust e se deliciou com 2 conceitos principais: Ownerships e Borrowings. Se ta achando fácil, se prepare que logo a chapa esquenta lá onde o filho chora e a mãe não vê.
+
+
+
+```bash
+ ______________________
+/ Busque conhecimento! \
+\                      /
+ ----------------------
+           \ 
+            _~^~^~_
+           /  o o  \ 
+           '       '
+            ˜˜~~~˜˜
+ ```
